@@ -1,12 +1,11 @@
 // Your web app's Firebase configuration
-var firebaseConfig = {
-  apiKey: process.env.apiKey,
-  authDomain: process.env.authDomain,
-  databaseURL: process.env.databaseURL,
-  projectId: process.env.projectId,
-  storageBucket: process.env.storageBucket,
-  messagingSenderId: process.env.messagingSenderId,
-  appId: process.env.appId,
+const firebaseConfig = {
+  apiKey: "AIzaSyBia9_6jF1QNya682Q6jkTxhOVM2Ww3n2Q",
+  authDomain: "hatti-chat1.firebaseapp.com",
+  projectId: "hatti-chat1",
+  storageBucket: "hatti-chat1.firebasestorage.app",
+  messagingSenderId: "280043685839",
+  appId: "1:280043685839:web:6ac756f949db06d28ab4ba"
 };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
